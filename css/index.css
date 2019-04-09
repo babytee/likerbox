@@ -1,0 +1,147 @@
+
+body{
+    background:url('../img/backg12.jpg')fixed!important;
+    background-position: 100% 100%!important;
+     padding: 0px!important;
+    margin:0px!important;
+}
+.contain{
+    width: 100%;
+    overflow: auto;
+}
+header{
+    width: 100%;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black); /* Standard syntax */
+    color:#fff;
+    padding-top: 5px;
+    line-height: 10px;
+    padding-bottom: 5px;
+    overflow:auto;
+}
+
+#header{
+   width: 100%;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black); /* Standard syntax */
+    color:#fff;
+    text-align: center;
+    height: auto!important;
+    margin-top:0px;
+    padding: 2px;
+    font-family: monotype corsiva;
+}
+
+#header h4{
+    font-family: cursive;
+    font-weight: bolder;
+}
+#drop{
+    top:12px;
+    right: 0px;
+    position: absolute;
+    
+}
+#drop button{
+    color: #fff!important;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+#link{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black); /* Standard syntax */
+    margin-top:0px;
+    width:100%; border:none;
+}
+
+nav.container-fluid {
+     background: red!important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, black)!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black)!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black)!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black)!important; /* Standard syntax */
+    color:#fff;
+}
+
+.nav{
+    border-bottom: none!important;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black); /* Standard syntax */
+} 
+
+#menu li a{
+    font-size: 20px!important;
+    color: #fff!important;
+    text-shadow: 4px 3px 2px #000!important;
+}
+
+#menu li a:hover{
+    font-size: 20px!important;
+    color: red!important;
+    text-shadow: 2px 2px 2px #fff!important;
+    background-color: transparent!important;
+    border:none!important;
+}
+
+#img{
+    margin-top: 10px;
+    background-color: #000;
+    box-shadow: 5px 2px gray;
+}
+
+#view{
+    height: 400px;
+    background-color: red;
+}
+
+
+.screen{
+    width: 85%;
+    background-color: rgba(0,0,0,0.6);
+    overflow: auto;
+    margin: 5px auto;
+    text-align: center;
+    border-radius: 15px/50%;line-height:50px;
+}
+
+#splash{
+    margin-top: 15%;
+
+}
+
+#frame{
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.screen ul{
+    padding: 0px;
+}
+
+.screen li{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 12px;
+    line-height: 20px;
+
+}
