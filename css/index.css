@@ -1,13 +1,26 @@
 
 body{
-    background:url('../img/backg12.jpg')fixed!important;
-    background-position: 100% 100%!important;
+    background: linear-gradient(red, black);; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black); /* Standard syntax */
      padding: 0px!important;
     margin:0px!important;
 }
 .contain{
-    width: 100%;
-    overflow: auto;
+     width: 100%;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black); /* Standard syntax */
+    color:#fff;
+    text-align: center;
+    height: auto!important;
+    margin-top:0px;
+    padding: 2px;
+    font-family: monotype corsiva;
 }
 header{
     width: 100%;
@@ -23,40 +36,26 @@ header{
     overflow:auto;
 }
 
-#header{
-   width: 100%;
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(red, black); /* Standard syntax */
-    color:#fff;
-    text-align: center;
-    height: auto!important;
-    margin-top:0px;
-    padding: 2px;
-    font-family: monotype corsiva;
-}
 
 #header h4{
     font-family: cursive;
     font-weight: bolder;
 }
 #drop{
-    top:12px;
+    top:9px;
     right: 0px;
     position: absolute;
     
 }
 #drop button{
     color: #fff!important;
-    font-weight: bolder;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: monotype corsiva;
 }
 
 
 #link{
-    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(red, black); /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
@@ -66,7 +65,9 @@ header{
 }
 
 nav.container-fluid {
-     background: red!important; /* For browsers that do not support gradients */
+    padding: 0px!important;
+    width: 100%!important;
+     background: linear-gradient(red, black);!important; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(red, black)!important; /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(red, black)!important; /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(red, black)!important; /* For Firefox 3.6 to 15 */
@@ -75,6 +76,7 @@ nav.container-fluid {
 }
 
 .nav{
+    padding: 0px!important;
     border-bottom: none!important;
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
@@ -83,10 +85,17 @@ nav.container-fluid {
     background: linear-gradient(red, black); /* Standard syntax */
 } 
 
+#menu ul{
+    padding: 0px!important;
+}
+
+
+
 #menu li a{
     font-size: 20px!important;
     color: #fff!important;
     text-shadow: 4px 3px 2px #000!important;
+
 }
 
 #menu li a:hover{
@@ -115,7 +124,7 @@ nav.container-fluid {
     overflow: auto;
     margin: 5px auto;
     text-align: center;
-    border-radius: 15px/50%;line-height:50px;
+    border-radius: 10px/50%;line-height:50px;
 }
 
 #splash{
